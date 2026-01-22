@@ -90,6 +90,7 @@ const Signup = () => {
                                 onChange={(e) => setName(e.target.value)}
                                 placeholder="John Doe"
                                 required
+                                autoComplete="name"
                             />
                         </div>
                         <div className="flex flex-col space-y-2 w-full">
@@ -101,6 +102,7 @@ const Signup = () => {
                                 onChange={(e) => setEmail(e.target.value)}
                                 placeholder="you@example.com"
                                 required
+                                autoComplete="email"
                             />
                         </div>
                         <div className="flex flex-col space-y-2 w-full">
@@ -112,6 +114,7 @@ const Signup = () => {
                                 onChange={(e) => setPassword(e.target.value)}
                                 placeholder="••••••••"
                                 required
+                                autoComplete="new-password"
                             />
                         </div>
                         <div className="flex flex-col space-y-2 w-full">

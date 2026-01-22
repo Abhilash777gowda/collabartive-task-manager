@@ -89,6 +89,7 @@ const Login = () => {
                                 onChange={(e) => setEmail(e.target.value)}
                                 placeholder="you@example.com"
                                 required
+                                autoComplete="email"
                             />
                         </div>
                         <div className="flex flex-col space-y-2 w-full">
@@ -100,6 +101,7 @@ const Login = () => {
                                 onChange={(e) => setPassword(e.target.value)}
                                 placeholder="••••••••"
                                 required
+                                autoComplete="current-password"
                             />
                         </div>
 
